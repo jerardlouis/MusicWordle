@@ -92,7 +92,8 @@ function App() {
         variant="success"
       />
       <div className="flex w-80 mx-auto items-center mb-8">
-        <h1 className="text-xl grow font-bold">Not Wordle</h1>
+        
+        <img src= "https://www.aegworldwide.com/sites/default/files/styles/large/public/press-release/2019-03/Bowery%20Presents%20Logo_2.png?itok=7NCCHMXj" />
         <InformationCircleIcon
           className="h-6 w-6 cursor-pointer"
           onClick={() => setIsInfoModalOpen(true)}

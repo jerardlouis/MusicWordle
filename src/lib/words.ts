@@ -1,5 +1,6 @@
 import { WORDS } from '../constants/wordlist'
 import { VALIDGUESSES } from '../constants/validGuesses'
+import { BOWERY} from '../constants/bowery'
 
 export const isWordInWordList = (word: string) => {
   return (
@@ -14,6 +15,7 @@ export const isWinningWord = (word: string) => {
 
 export const getWordOfDay = () => {
   // January 1, 2022 Game Epoch
+  /*
   const epochMs = 1641013200000
   const now = Date.now()
   const msInDay = 86400000
@@ -23,6 +25,11 @@ export const getWordOfDay = () => {
     solution: WORDS[index].toUpperCase(),
     solutionIndex: index,
   }
+  */
+ return {
+   solution: BOWERY[0].toUpperCase(),
+   solutionIndex: 0
+ }
 }
 
 export const { solution, solutionIndex } = getWordOfDay()
