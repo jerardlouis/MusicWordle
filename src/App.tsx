@@ -93,7 +93,7 @@ function App() {
       />
       <div className="flex w-80 mx-auto items-center mb-8">
         
-        <img src= "https://www.bowerypresents.com/assets/img/logo.png" />
+        <img src= "https://www.bowerypresents.com/assets/img/logo.png" alt="" />
         <InformationCircleIcon
           className="h-6 w-6 cursor-pointer"
           onClick={() => setIsInfoModalOpen(true)}
