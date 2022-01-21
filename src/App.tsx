@@ -93,7 +93,7 @@ function App() {
       />
       <div className="flex w-80 mx-auto items-center mb-8">
         
-        <img src= "https://www.aegworldwide.com/sites/default/files/styles/large/public/press-release/2019-03/Bowery%20Presents%20Logo_2.png?itok=7NCCHMXj" />
+        <img src= "https://www.bowerypresents.com/assets/img/logo.png" />
         <InformationCircleIcon
           className="h-6 w-6 cursor-pointer"
           onClick={() => setIsInfoModalOpen(true)}
