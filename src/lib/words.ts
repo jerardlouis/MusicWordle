@@ -21,18 +21,18 @@ export const getWordOfDay = () => {
   const msInDay = 86400000
   const index = Math.floor((now - epochMs) / msInDay)
   var newIndex = index % BOWERY.length
-  
+  /*
   return {
     solution: BOWERY[newIndex].toUpperCase(),
     solutionIndex: newIndex,
   }
-  
- /*
+  */
+ 
  return {
-   solution: BOWERY[0].toUpperCase(),
-   solutionIndex: 0
+   solution: BOWERY[1].toUpperCase(),
+   solutionIndex: 1
  }
- */
+ 
 }
 
 export const { solution, solutionIndex } = getWordOfDay()
