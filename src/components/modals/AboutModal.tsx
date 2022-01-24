@@ -74,7 +74,15 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
                         className="underline font-bold"
                       >
                         play the original here
-                      </a>
+                      </a> {' '}
+                      
+                      
+                      Updated version by {' '}
+                      <a
+                        href="http://fathomless-bayou-60027.herokuapp.com/"
+                        className="underline font-bold"
+                      >Jerard Dayanghirang Guevarra</a>
+                      
                     </p>
                   </div>
                 </div>
