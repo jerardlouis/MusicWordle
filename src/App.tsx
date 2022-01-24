@@ -92,7 +92,7 @@ function App() {
       />
       <div className="flex w-80 mx-auto items-center mb-8">
         
-        <img src= "https://www.bowerypresents.com/assets/img/logo.png" alt=""
+        <img src= "BS.png" alt=""
         style={{ marginLeft:'auto', marginRight:'auto' }}
         onClick={() => setIsInfoModalOpen(true)}
         />
