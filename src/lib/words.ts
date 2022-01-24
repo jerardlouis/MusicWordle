@@ -15,21 +15,24 @@ export const isWinningWord = (word: string) => {
 
 export const getWordOfDay = () => {
   // January 1, 2022 Game Epoch
-  /*
+  
   const epochMs = 1641013200000
   const now = Date.now()
   const msInDay = 86400000
   const index = Math.floor((now - epochMs) / msInDay)
-
+  var newIndex = index % BOWERY.length
+  
   return {
-    solution: WORDS[index].toUpperCase(),
-    solutionIndex: index,
+    solution: BOWERY[newIndex].toUpperCase(),
+    solutionIndex: newIndex,
   }
-  */
+  
+ /*
  return {
    solution: BOWERY[0].toUpperCase(),
    solutionIndex: 0
  }
+ */
 }
 
 export const { solution, solutionIndex } = getWordOfDay()
