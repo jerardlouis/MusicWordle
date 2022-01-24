@@ -30,8 +30,8 @@ export const getWordOfDay = () => {
   */
  
  return {
-   solution: BOWERY[1].toUpperCase(),
-   solutionIndex: 1
+   solution: BOWERY[3].toUpperCase(),
+   solutionIndex: 3
  }
  
 }
