@@ -20,7 +20,7 @@ export const getWordOfDay = () => {
   const now = Date.now()
   const msInDay = 86400000
   const index = Math.floor((now - epochMs) / msInDay)
-  var newIndex = index % BOWERY.length
+  //var newIndex = index % BOWERY.length
   /*
   return {
     solution: BOWERY[newIndex].toUpperCase(),
